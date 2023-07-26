@@ -28,7 +28,7 @@ body {
   -o-transform: skew(7deg);
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 767px) {
   body {
     overflow-y: auto;
   }
@@ -81,7 +81,7 @@ input {
   color: #4d2480;
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 767px) {
   .form-container {
     position: relative;
     left: -985px !important;
@@ -171,7 +171,7 @@ input:focus {
   color: rgb(191, 190, 190);
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 767px) {
   .social-media{
     top: 110px;
     left: 50px;
