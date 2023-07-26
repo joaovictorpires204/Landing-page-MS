@@ -57,7 +57,7 @@ label{
 }
 
 input {
-  width: 350px;
+  width: 400px;
   height: 30px;
   margin-top: 5px;
   margin-bottom: 10px;
@@ -91,6 +91,8 @@ input:focus {
  color: white;
  box-shadow: 0px 0px 10px 5px #e28ed9;
 }
+
+
 
 .social-media{
   position: relative;
