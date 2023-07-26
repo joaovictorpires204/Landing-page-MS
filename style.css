@@ -33,6 +33,10 @@ body {
     overflow-y: auto;
   }
 
+  .banner{
+    width: auto;
+  }
+
   .page-content{
     height: 600px !important;
   }
