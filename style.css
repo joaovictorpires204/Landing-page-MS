@@ -17,6 +17,7 @@ body {
 }
 
 .paralelograma {
+  visibility: visible;
   position: absolute;
   left: 650px;
   width: 200px !important;
@@ -25,6 +26,20 @@ body {
   -webkit-transform: skew(7deg);
   -moz-transform: skew(7deg);
   -o-transform: skew(7deg);
+}
+
+@media only screen and (max-width: 720px) {
+  body {
+    overflow-y: auto;
+  }
+
+  .page-content{
+    height: 600px !important;
+  }
+
+  .paralelograma{
+    visibility: hidden;
+  }
 }
 
 .form-container {
@@ -66,6 +81,42 @@ input {
   color: #4d2480;
 }
 
+@media only screen and (max-width: 720px) {
+  .form-container {
+    position: relative;
+    left: -985px !important;
+    top: 290px;
+    padding: 35px;
+    padding-top: 0px;
+    background-color: white;
+    border-radius: 20px;
+    width: 290px;
+    height: 560px;
+  }
+
+  .title{
+    top: 20px;
+    left: 90px;
+    margin-bottom: -10px;
+  }
+
+  form {
+    top: 60px;
+    left: 0px;
+  }
+
+  input {
+    width: 290px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #7440b4;
+    color: #4d2480;
+  }
+}
+
+
 input:hover {
   outline-style: none;
   border-bottom: 2px solid #7440b4;
@@ -84,6 +135,7 @@ input:focus {
   border: 1px solid #7440b4;
   border-radius: 10px;
   color: #4d2480;
+  cursor: pointer;
 }
 
 .submit-btn:hover {
@@ -91,8 +143,6 @@ input:focus {
  color: white;
  box-shadow: 0px 0px 10px 5px #e28ed9;
 }
-
-
 
 .social-media{
   position: relative;
@@ -119,4 +169,21 @@ input:focus {
   left: 235px;
   font-size: small;
   color: rgb(191, 190, 190);
+}
+
+@media only screen and (max-width: 720px) {
+  .social-media{
+    top: 110px;
+    left: 50px;
+  }
+  
+  .social-media a{
+    margin-left: 0px;
+    margin-right: 20px;
+  }
+  
+  .copyright{
+    top: 190px;
+    left: 50px;
+  }
 }
