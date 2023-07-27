@@ -110,6 +110,11 @@ input {
     left: 0px;
   }
 
+  section{
+    display: flex;
+    flex-direction: column;
+  }
+
   input {
     width: 290px;
     height: 30px;
